@@ -1,0 +1,130 @@
+@import "vars"
+
+
+/*==========  Desktop First  ==========*/
+
+// ≥1200px
++media-breakpoint-down(lg)
+	.b-adv-item
+		&:before
+			right: 20%
+// ≥992px
++media-breakpoint-down(md)
+	.b-logo
+		img
+			width: 30px
+			height: auto
+		a
+			font-size: 12px
+			span
+				top: 10px
+	.b-menu
+		nav
+			ul
+				li
+					padding: 0 20px 0 0
+	.b-numbers-item
+		margin: 0
+	.b-adv-item
+		&:before
+			right: 10%
+// ≥768px
++media-breakpoint-down(sm)
+	h1, h2
+		font-size: 45px
+	h2
+		margin: 10% 0
+	h3
+		font-size: 30px
+	.b-logo
+		a
+			span
+				padding: 0 5px 0
+				top: 5px
+	.b-menu
+		nav
+			ul
+				li
+					padding: 0 10px 0 0
+					a
+						font-size: 12px
+	.b-info
+		p
+			font-size: 23px
+	.b-info-order
+		width: 350px
+		font-size: 18px
+	.b-advantage
+		height: auto 
+		padding: 20px 0
+	.b-adv-item
+		margin: 20px auto 
+		p
+			margin: 0
+	.b-numbers
+		padding: 20px
+	.b-request 
+		p
+			font-size: 18px
+	.b-request-order
+		font-size: 20px
+		width: 250px
+		height: 60px
+// ≥576px
++media-breakpoint-down(xs)
+	.b-1, .b-2, .b-3, .b-4, .b-5, .b-6, .b-7, .b-8, .b-9
+		opacity: 1
+	h1, h2
+		font-size: 30px
+	h3
+		font-size: 20px
+	.b-menu
+		display: none
+	.active-mobile-menu
+		nav
+			ul
+				padding: 10px 0 
+				li
+					padding: 0
+					a
+						font-size: 12px
+	.b-mobile-menu
+		display: block
+		float: right
+		color: #fff
+	.b-info
+		p
+			font-size: 18px
+			padding: 20px 0
+	.b-info-first
+		height: 400px
+		background-position-x: 57%
+	.b-info-second	
+		height: 370px
+		background-position-x: 60%
+	.b-info-order
+		width: 230px
+		height: 40px
+		font-size: 14px
+	.b-request-order
+		font-size: 13px
+		width: 150px
+		height: 40px
+	.b-request 
+		p
+			font-size: 12px
+
+
+/*==========  Mobile First  ==========*/
+
+// ≤576px
++media-breakpoint-up(sm)
+
+// ≤768px
++media-breakpoint-up(md)
+
+// ≤992px
++media-breakpoint-up(lg)
+
+// ≤1200px
++media-breakpoint-up(xl)
